@@ -72,20 +72,20 @@ function rust_update {
 
 
 colors
-export version="029-eukelade"
+export version="029-eukelade.2"
 line
 logo
 line
-echo -e "${RED}Начинаем обновление ${NORMAL}"
+echo -e "${RED}Починаємо оновлення ${NORMAL}"
 line
 echo -e "${GREEN}1/2 Обновляем репозиторий ${NORMAL}"
 source_git
 line
-echo -e "${GREEN}2/2 Начинаем билд ${NORMAL}"
+echo -e "${GREEN}2/2 Оновлюємо репозиторій ${NORMAL}"
 rust_update
 line
 # build_penumbra
 wget_bin_pcli
 reset_wallet
 line
-echo -e "${RED}Скрипт завершил свою работу ${NORMAL}"
+echo -e "${RED}Скрипт завершив свою работу. Дякую. ${NORMAL}"
