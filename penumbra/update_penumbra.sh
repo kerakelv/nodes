@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function logo {
-  curl -s https://raw.githubusercontent.com/kerakelv/Tools/main/kerakelv.sh | bash
+  curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/doubletop.sh | bash
 }
 
 function line {
@@ -72,20 +72,20 @@ function rust_update {
 
 
 colors
-export version="029-eukelade.2"
+export version="030-isonoe"
 line
 logo
 line
-echo -e "${RED}Починаємо оновлення ${NORMAL}"
+echo -e "${RED}Начинаем обновление ${NORMAL}"
 line
 echo -e "${GREEN}1/2 Обновляем репозиторий ${NORMAL}"
 source_git
 line
-echo -e "${GREEN}2/2 Оновлюємо репозиторій ${NORMAL}"
+echo -e "${GREEN}2/2 Начинаем билд ${NORMAL}"
 rust_update
 line
 # build_penumbra
 wget_bin_pcli
 reset_wallet
 line
-echo -e "${RED}Скрипт завершив свою работу. Дякую. ${NORMAL}"
+echo -e "${RED}Скрипт завершил свою работу ${NORMAL}"
