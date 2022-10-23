@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "-----------------------------------------------------------------------------"
-curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/doubletop.sh | bash
+curl -s https://raw.githubusercontent.com/kerakelv/Tools/main/kerakelv.sh | bash
 echo "-----------------------------------------------------------------------------"
 echo "Начинаем обновление репрозитория "
 echo "-----------------------------------------------------------------------------"
