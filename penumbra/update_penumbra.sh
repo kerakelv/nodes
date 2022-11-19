@@ -72,7 +72,7 @@ function rust_update {
 
 
 colors
-export version="030-isonoe"
+export version="035-taygete"
 line
 logo
 line
